@@ -334,25 +334,25 @@ if DetectDistro == 'Ubuntu':
 
 if DetectDistro == 'elementary OS':
  print """
- %s          eeeeeeeeeeeeeeeee          %s
- %s       eeeeeeeeeeeeeeeeeeeeeee       %s
- %s     eeeee  eeeeeeeeeeee   eeeee     %s
- %s   eeee   eeeee       eee     eeee   %s
- %s  eeee   eeee          eee     eeee  %s
- %s eee    eee            eee       eee %s
- %s eee   eee            eee        eee %s
- %s ee    eee           eeee       eeee %s
- %s ee    eee         eeeee      eeeeee %s
- %s ee    eee       eeeee      eeeee ee %s
- %s eee   eeee   eeeeee      eeeee  eee %s
- %s eee    eeeeeeeeee     eeeeee    eee %s
- %s  eeeeeeeeeeeeeeeeeeeeeeee    eeeee  %s
- %s   eeeeeeee eeeeeeeeeeee      eeee   %s
- %s     eeeee                 eeeee     %s
- %s       eeeeeee         eeeeeee       %s
- %s          eeeeeeeeeeeeeeeee          %s
-                                      %s
-%s""" % ( redN, result[0], redB, redN, result[1], redB, redN, result[2], yellowB, redB, redN, result[3], yellowB, redB, result[4], yellowB, redB, result[5], redB, yellowB, redB, result[6], redB, yellowB, redB, result[7], redB, yellowB, result[8], redB, yellowB, redN, result[9], redB, yellowB, redN, result[10], yellowB, redN, result[11], yellowB, redN, result[12], yellowB, redN, yellowB, result[13], redN, yellowB, result[14], redN, yellowB, result[15], yellowB, result[16], yellowB, result[17], clear )
+%s           eeeeeeeeeeeeeeeee           %s
+%s        eeeeeeeeeeeeeeeeeeeeeee        %s
+%s      eeeee  %seeeeeeeeeeee%s   eeeee      %s
+%s    eeee   %seeeee       eee%s     eeee    %s
+%s   eeee   %seeee          eee%s     eeee   %s
+%s  eee    %seee            eee%s       eee  %s
+%s  eee   %seee            eee%s        eee  %s
+%s  ee    %seee           eeee       ee%see  %s
+%s  ee    %seee         eeeee      eeee%see  %s
+%s  ee    %seee       eeeee      eeeee%s ee  %s
+%s  eee   %seeee   eeeeee      eeeee%s  eee  %s
+%s  eee    %seeeeeeeeee     eeeeee%s    eee  %s
+%s   eee%seeeeeeeeeeeeeeeeeeeee%s    eeeee   %s
+    eeee%seeee  eeeeeeeeeee%s      eeee    %s
+      eeeee                 eeeee      %s
+        eeeeeee         eeeeeee        %s
+           eeeeeeeeeeeeeeeee           %s
+                                       %s
+%s""" % (yellowB, result[0], yellowB, result[1], yellowB, redB, yellowB, result[2], yellowB, redB, yellowB, result[3], yellowB, redB, yellowB, result[4], yellowB, redB, yellowB, result[5], yellowB, redB, yellowB, result[6], yellowB, redB, yellowB, result[7], yellowB, redB, yellowB, result[8], yellowB, redB, yellowB, result[9], yellowB, redB, yellowB, result[10], yellowB, redB, yellowB, result[11], yellowB, redB, yellowB, result[12],redB, yellowB, result[13], result[14], result[15], result[16], result[17], clear )
 
 if DetectDistro == 'Arch':
  print """%s
